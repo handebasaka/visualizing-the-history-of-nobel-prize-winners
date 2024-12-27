@@ -4,9 +4,10 @@ The Nobel Prize has been one of the most prestigious international awards since 
 
 In this project, we will explore and answer several questions related to Nobel Prize winners and their data. I encourage you to dive deeper and explore additional questions that pique your interest!
 
-**Dataset:** The Nobel Foundation has provided a dataset of all prize winners from the inception of the awards in 1901 through 2023. The dataset used in this project can be found [here](https://www.kaggle.com/datasets/shayalvaghasiya/nobel-prize-data?resource=download). Also you can use the original API to get data [here](https://www.nobelprize.org/organization/developer-zone-2/).
+**Dataset:** The Nobel Foundation provides all of the data since 1901 via an [API](https://www.nobelprize.org/organization/developer-zone-2/). This endpoint sorts the output based on Nobel Laureates (persons and/or organizations). It returns all information about Laureates and Nobel Prizes. We will get the data from the API, create the dataset, and then explore the trends.
 
 To get started on answering questions and creating some plots in Python, we will need some packages below:
+- `requests`: It is a simple HTTP library which allows you to send HTTP/1.1 requests extremely easily.
 - `pandas`: It is a data analysis and manipulation library that provides data structures and tools.
 - `matplotlib.pyplot`: It is a plotting library for creating visualizations in Python.
 - `seaborn`: It provides a high-level interface for drawing attractive and informative statistical graphics.
@@ -30,6 +31,8 @@ To get started on answering questions and creating some plots in Python, we will
 
 ## Tools and Technologies Used
 `Python`
+
+`Request` for fetch data
 
 `Pandas` for data manipulation 
 
